@@ -1,6 +1,14 @@
 @import "tailwindcss";
 
 @layer base { /* without @layer base h1 uppercase won't work*/
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-orbitron);
+  }
+
+  .three {
+    font-family: var(--font-montserrat-alternates);
+  }
+
   h1 {
     @apply font-bold uppercase;
   }
