@@ -11,9 +11,13 @@ export default function Home() {
 
           <p>Join our community of creators and explore a vast library of user-submitted models.</p>
           
-          <button className="rotate-trigger">
-            <span className="button-text">Hover Here</span>
-          </button>
+          <div className="flex gap-2">
+            <a href="/posts">Posts</a>
+            <a href="/about">About</a>
+            <button className="rotate-trigger">
+              <span className="button-text">Hover Here</span>
+            </button>
+          </div>
         </div>
         
         {/*alternative donut shape className="w-64 h-64 rounded-full object-cover mask-radial-from-transparent mask-radial-from-10% mask-radial-to-black mask-radial-to-31%"*/}
