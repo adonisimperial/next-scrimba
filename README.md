@@ -48,6 +48,17 @@ Run "npm run dev"; this will also add the scripts to your package.json, or copy 
 
 Note: for the latest or quick start, check Next JS documentations.
 
+### Topics
+
+- Manual Installation
+- CLI Installation
+- Fonts and Image Optimization
+- File-based and Nested Routing
+- Layouts and Links
+- Models and Async Function
+- Dynamic Routes
+- Client and Server Components
+
 ### Creating New Route
 
 In creating new route, you have to create a directory folder where you will put the tsx files.
