@@ -10,6 +10,7 @@ import "./globals.css";
 {/* use from "next/font/google" for downloaded fonts */}
 import { Nunito, Orbitron, Montserrat_Alternates } from "next/font/google"
 import NavBar from "@/app/components/NavBar"
+import { RootLayoutProps } from "@/app/types";
 
 const nunito = Nunito({
   subsets: ["latin"],
@@ -30,11 +31,7 @@ const montserratAlternates = Montserrat_Alternates({
   variable: "--font-montserrat-alternates"
 })
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: RootLayoutProps) {
 
   return (
     <html lang="en" className={`${nunito.className} ${montserratAlternates.variable} ${orbitron.variable} min-h-full flex flex-col`}>
