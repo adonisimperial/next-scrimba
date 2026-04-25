@@ -21,8 +21,8 @@ export default function NavBar () {
       </Link>
 
       <div className="flex gap-8 items-center">
-        <Link href="/posts">Posts</Link>
-        <Link href="/about">About</Link>
+        <Link href="/posts" className={pathname === "/posts" ? "is-active" : ""}>Posts</Link>
+        <Link href="/about" className={pathname === "/about" ? "is-active" : ""}>About</Link>
       </div>
     </nav>
   )
