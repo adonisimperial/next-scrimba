@@ -21,6 +21,7 @@ export default function NavBar () {
       </Link>
 
       <div className="flex gap-8 items-center">
+        <Link href="/3d-models" className={pathname === "/3d-models" ? "is-active" : ""}>3d Models</Link>
         <Link href="/posts" className={pathname === "/posts" ? "is-active" : ""}>Posts</Link>
         <Link href="/about" className={pathname === "/about" ? "is-active" : ""}>About</Link>
       </div>

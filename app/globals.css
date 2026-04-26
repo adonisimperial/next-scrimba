@@ -21,7 +21,7 @@
 
   /* Text Swap using (::before) */
   button.rotate-trigger::before {
-    content: "No! No! No!";
+    content: "Let's go!";
     @apply absolute inset-0 flex items-center justify-center font-bold opacity-0;
     /*transition: opacity 0.2s ease-in-out;*/
     z-index: 2;
@@ -52,11 +52,11 @@
   }
 
   a {
-    @apply no-underline;
+    @apply font-normal;
   }
 
   a:hover {
-    @apply underline;
+    @apply font-bold text-gray-600;
   }
 }
 

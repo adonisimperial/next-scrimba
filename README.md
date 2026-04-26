@@ -55,13 +55,21 @@ Note: for the latest or quick start, check Next JS documentations.
 - Fonts and Image Optimization
 - File-based and Nested Routing
 - Layouts and Links
-- Models and Async Function > here now at 20:49:7
-- Dynamic Routes
+- Models and Async Function
 - Client and Server Components
+- Dynamic Routes > at 20:53:22 to 21:09:27
 
-### Creating New Route
+### Other Notes
+
+#### Creating New Route
 
 In creating new route, you have to create a directory folder where you will put the tsx files.
+
+#### React Icons
+
+```bash
+npm install react-icons
+```
 
 ## 🛠 Tech Stack
 

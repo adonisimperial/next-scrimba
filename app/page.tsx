@@ -18,9 +18,11 @@ export default function Home() {
           */}
           <Link className="btn" href="/posts">Posts</Link>
           <Link className="btn" href="/about">About</Link>
-          <button className="rotate-trigger">
-            <span className="button-text">Hover Here</span>
-          </button>
+          <Link href="/3d-models">
+            <button className="rotate-trigger">
+              <span className="button-text">Hover Here</span>
+            </button>
+          </Link>
         </div>
       </div>
       
