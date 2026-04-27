@@ -58,6 +58,7 @@ Note: for the latest or quick start, check Next JS documentations.
 - Models and Async Function
 - Client and Server Components
 - Dynamic Routes > at 20:53:22 to 21:09:27
+- Adding Categories > at 21:10:35
 
 ### Other Notes
 
