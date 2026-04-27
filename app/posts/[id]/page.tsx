@@ -11,5 +11,11 @@ export default async function ModelDetailPage({ params }: ModelDetailPageProps) 
   const post = await res.json()
 
   {/* This is a happy path so make secure in the production grade by checking if res is true T and using try and catch for errors */}
-  return <h1>{post.title}</h1>
+  return (
+    <div>
+      <h1>{post.title}</h1>
+
+      <p>{post.body}</p>
+    </div>
+  )
 }
